@@ -13,7 +13,7 @@ class App < Sinatra::Base
   end
 
   get '/say/:number/:phrase' do
-    erb: say
+    erb :say
     end
 
   end
